@@ -23,7 +23,7 @@
 .nav-item{
     display: flex; 
     color: white;
-    margin: 0px;
+    margin: auto;
     padding-left: 20px;
     font-weight: bold;
     float:left;
@@ -99,14 +99,20 @@
 }
 
 .title_icon{
-    width: 5px;
+    width: 8px;
     background-color: red;
     margin:0 10px 0 0;
 }
 
-.content_span{
+.title_content{
     width: 100%; 
     padding: 0px;
+    display: block; 
+    justify-content: left;
+}
+
+.content_span{
+    width: 100%; 
     display: block; 
     justify-content: left;
 }
@@ -120,7 +126,7 @@
 }
 
 .content_span_left{
-    width: 58%;
+    width: 55%;
     float: left;
 }
 .content_span_right{
@@ -129,7 +135,7 @@
 }
 
 .content_span_inner{
-    margin-left: 15px;
+    margin-left: 18px;
     display: block; 
     justify-content: left;
 }
