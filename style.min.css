@@ -1,10 +1,11 @@
 .container{
     align-content:center;
     margin:0 auto; 
-    width: 1280px; 
+    width: 80%; 
     border:0px;
     background-color:whitesmoke;
     line-height: 1.8em;
+    overflow: scroll;
 }
 
 .header{
@@ -34,7 +35,7 @@
 .nav-item  li{
     margin:0 20px; 
     padding: auto;
-    text-indent: -4px;
+    text-indent: -8px;
 }
 
 .nav-item  li a {
@@ -48,23 +49,14 @@
 
 
 .content{
-    width:inherit;
+    width:100%;
     margin:10px auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color:#F9F9F9;
 }
 
-.footer{
-    margin: auto;
-    width: inherit;
-    text-align: center;
-    background-color:#057CE2;
-}
 
-p{
-    font-weight:initial;
-    text-align: left;
-}
+ 
 
 .changelanguage{
     display: flex; 
@@ -79,24 +71,27 @@ p{
 }
 
 .table_span{
-   width:50%;
-   text-align:center; 
-   margin:10px auto;
+   width: 100%;
+   text-align:left; 
 }
 
 .table_span_header{;
     width:30%;
-    text-align: right;
+    text-align: center;
     font-weight:bold;
     color: royalblue;
 }
 
+.table_span_com{
+    width:100%;
+    text-align: center;  
+    table-layout: fixed;
+}
 
 .title_span{
     background-color:white;
-    width: inherit; 
+    width: 100%; 
     padding: 0px;
-    margin:10px 0; 
     display: flex; 
     justify-content: left;
     font-weight: bold;
@@ -109,21 +104,47 @@ p{
     margin:0 10px 0 0;
 }
 
-.title_content{
-
-}
-
 .content_span{
-    width: inherit; 
-    padding: auto;
-    margin:10px 0; 
-    display: flex; 
+    width: 100%; 
+    padding: 0px;
+    display: block; 
     justify-content: left;
 }
-
+ 
 .to_be_added{
     color:black;
     font-weight: bold;
     font-size:larger;
     padding: 10px;
+    margin-left: 15px;
+}
+
+.content_span_left{
+    width: 58%;
+    float: left;
+}
+.content_span_right{
+    width: 40%;
+    float: right;
+}
+
+.content_span_inner{
+    margin-left: 15px;
+    display: block; 
+    justify-content: left;
+}
+
+.footer{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    background-color:#057CE2;
+}
+
+.footer p{
+    margin: 3px;
+    color:white;
+    width:100%;
+    font-weight: bold;
+    text-align: center;
 }
