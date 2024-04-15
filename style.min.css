@@ -23,7 +23,8 @@
 .nav-item{
     display: flex; 
     color: white;
-    margin: auto;
+    margin: 0px;
+    padding-left: 20px;
     font-weight: bold;
     float:left;
     vertical-align: middle;
@@ -32,7 +33,7 @@
 
 .nav-item li{
     margin-right: 25px;
-    text-indent: 5px;
+    text-indent: 0px;
 }
 
 .nav-item  li a {
@@ -52,6 +53,9 @@
     background-color:#F9F9F9;
 }
 
+.content p{
+    font-size:medium;
+}
 
  
 
