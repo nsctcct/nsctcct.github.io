@@ -10,7 +10,7 @@
 
 .header{
     background-color:#C60100;
-    width: 100%; 
+    width: 1200px; 
 }
 
 .nav-box{
@@ -35,7 +35,7 @@
 .nav-item  li{
     margin:0 20px; 
     padding: auto;
-    text-indent: -8px;
+    text-indent: 0px;
 }
 
 .nav-item  li a {
